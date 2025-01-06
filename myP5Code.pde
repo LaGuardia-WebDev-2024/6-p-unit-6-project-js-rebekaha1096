@@ -7,33 +7,26 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255,0);
+  fill(255,255,255);
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  ellipse(200,300,150,150);   //snowperson
+  ellipse(200,200,100,100);
+  ellipse(200,120,75,75);
+ 
+ line(232,175,325,142);  //arms
+ line(172,175,75,142);
+ line(74,142,75,123);
+ line(73,141,57,136);
+ line(73,142,66,156);
+ line(324,141,317,128);
+ line(325,142,338,133);
+ line(324,143,340,155);
 
-ellipse(200, 300, 150, 150); //snowperson
-ellipse(200, 200, 100, 100);
-ellipse(200, 120, 75, 75);
-
-
-line(232, 175, 325,142); //arms
-line(172,175, 75, 142);
-line(74, 142, 75, 123);
-line(73,141,57,136);
-line(73,142,66,156);
-line(324,141,317,128);
-line(325,142,338,133);
-line(324,143,340,155);
-
-triangle(193,124,193,131,208,128);
-
-//body buttons
-fill(0,0,0);
-ellipse(198,175,5,5)
-ellipse(198,190,5,5)
-ellipse(198,205,5,5)
+triangle(193,124,193,131,208,128);  //nose
+ strokeWeight(4);
+ point(180,135)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
