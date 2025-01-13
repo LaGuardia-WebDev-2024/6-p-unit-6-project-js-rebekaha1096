@@ -8,12 +8,49 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
-  
+//the ground
+fill(48,180,72);
+rect(0,300,400,100);
+//the sun
+fill(234,199,37);
+ellipse(80,64,100,100);
+
+//snowperson
+fill(255,255,255)
+  ellipse(200,300,150,150)
+  ellipse(200,200,100,100);
+ellipse(200,120,75,75);
+
+ //arms
+line(232,175,325,142); 
+line(172,175,75,142);
+line(74,142,75,123);
+line(73,141,57,136);
+line(73,142,66,156);
+line(324,141,317,128);
+line(325,142,338,133);
+line(324,143,340,155);
+
+//nose
+triangle(193,124,193,131,208,128); 
+
+
+//scarf
+strokeWeight(20);
+stroke(255,0,0);
+line(170,155,230,155);
+line(175,155,165,220);
+//eyes
+stroke(0,0,0)
+strokeWeight(10)
+point(183,115);
+point(216,115) ;
+
 
 }
 
