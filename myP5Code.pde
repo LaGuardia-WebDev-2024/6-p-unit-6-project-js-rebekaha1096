@@ -24,7 +24,7 @@ ellipse(80,64,100,100);
 fill(255,255,255)
   ellipse(200,300,150,150)
   ellipse(200,200,100,100);
-ellipse(200,120,75,75);
+ellipse(200,120,80,75);
 
  //arms
 line(232,175,325,142); 
@@ -39,7 +39,7 @@ line(324,143,340,155);
 //nose
 triangle(193,124,193,131,208,128); 
 
-
+arc(200,133,20,20,0,3.14);
 //scarf
 strokeWeight(20);
 stroke(255,0,0);
@@ -50,8 +50,14 @@ stroke(0,0,0)
 strokeWeight(10)
 point(183,115);
 point(216,115) ;
+//bodybuttons
+ellipse(198,175,5,5);
+ellipse(198,190,5,5);
+ellipse(198,205,5,5);
 
-
+rect(170,80,60,10);
+fill(255,0,0);
+rect(180,40,40,40);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
